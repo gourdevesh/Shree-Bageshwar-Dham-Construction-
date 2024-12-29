@@ -950,3 +950,12 @@
 /*** copyright end ***/
 
 
+.brand-title {
+    font-size: 2rem; /* Default size for larger screens */
+}
+
+@media (max-width: 476px) {
+    .brand-title {
+        font-size: 1.1rem; /* Smaller size for small screens */
+    }
+}
