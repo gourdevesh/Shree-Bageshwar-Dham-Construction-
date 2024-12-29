@@ -959,3 +959,28 @@
         font-size: 1.1rem; /* Smaller size for small screens */
     }
 }
+#construction-media .image-gallery img,
+#construction-media .video-gallery video {
+    border-radius: 8px;  /* Rounded corners for images and videos */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);  /* Optional: shadow effect */
+}
+
+#construction-media .image-gallery,
+#construction-media .video-gallery {
+    text-align: center;  /* Centering the content inside the gallery */
+}
+
+#construction-media h3 {
+    margin-bottom: 15px;
+}
+
+#construction-media .image-item,
+#construction-media .video-item {
+    margin-bottom: 20px;  /* Space between images and videos */
+}
+.btn + span {
+    vertical-align: middle;
+    font-size: 1rem;
+    color: #ffffff;
+  }
+  
